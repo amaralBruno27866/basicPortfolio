@@ -147,3 +147,133 @@ header .image img{
     margin: auto;
 }
 
+section .header{
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.features .card{
+    background-color: #27272A;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all o.3s ease;
+}
+
+.features .card:hover{
+    background-color: #323232;
+    border-color: #FF7A00;
+}
+
+.features .card span{
+    display: inline-block;
+    background-color: #FF3A00;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.features .card h4{
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p{
+    color: #CCCCCC;
+    margin-bottom: 1rem;
+}
+
+.features .card a{
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover{
+    color: #FF7A00;
+}
+
+.sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #CCCCCC;
+}
+
+.pricing{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.pricing .card{
+    padding: 3rem 2rem;
+    background-color: #27272A;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.pricing .card:hover{
+    background-color: #323232;
+    border-color: #FFFFFF;
+}
+
+.pricing .card .content{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.pricing .card h4{
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pricing .card h3{
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #FFFFFF;
+}
+
+.pricing .card p{
+    color: #FFFFFF;
+    margin-bottom: 0.75rem;
+}
+
+.pricing .card p i{
+    color: #CCCCCC;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.pricing .card button{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+.pricing .card button:hover{
+    background-color: #FF7A00;
+    border-color: #FF7A00;
+}
