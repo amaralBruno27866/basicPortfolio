@@ -277,3 +277,71 @@ section .header{
     background-color: #FF7A00;
     border-color: #FF7A00;
 }
+
+footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px repeat(3, 1fr);
+    gap: 2rem;
+}
+
+footer .column .logo{
+    max-width: 100px;
+    margin-bottom: 2rem;
+    border: 10px solid #FF7A00;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+footer .column p{
+    color: #CCCCCC;
+    margin-bottom: 2rem;
+}
+
+footer .column .socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .column .socials a{
+    color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+footer .column .socials a:hover{
+    color: #FFFFFF;
+    background-color: #FF3A00;
+    border-color: #FF3A00;
+}
+
+footer .column h4{
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer .column > a{
+    display: block;
+    color: #CCCCCC;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+footer .column > a:hover{
+    color: #FF3A00;
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    text-align: center;
+}
